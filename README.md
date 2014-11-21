@@ -56,7 +56,7 @@ Python vs Java
 Aspect                | Python | Java | Comments
 -------------| ------ | ------ | --------
 Productivity | + |  | See: [22], [23], [24]. In lines of code (LOC) per hour speed is practically same but because Python programs are shorter and simpler the developers are significantly more productive. |
-Expressiveness | + | | Python programs are more concise and compact (typically 3-4 times shorter) because of dynamic typing and built-in high-level data types. |
+Expressiveness | + | | Python programs are more concise and compact (typically 3-5 times shorter) because of dynamic typing and built-in high-level data types. |
 Performance (runtime speed) |  | + | See: [20], [21]. Performance depends on implementation but Python is generally expected to be run slower because of runtime typing. |
 Popularity | + | + | See: [25]
 
