@@ -91,7 +91,7 @@ More sources and further reading
 * ["Python & Java: A Side-by-Side Comparison" by Steve Ferg](http://pythonconquerstheuniverse.wordpress.com/2009/10/03/python-java-a-side-by-side-comparison/)
 * ["Popularity vs Productivity vs Performance" by Kyle Hailey](http://datavirtualizer.com/popularity-vs-productivity-vs-performance/)
 * "An empirical comparison of C, C++, Java, Perl, Python, Rexx, and Tcl" by by Lutz Prechelt ([PDF](http://page.mi.fu-berlin.de/prechelt/Biblio//jccpprt_computer2000.pdf))
-* ["Programming Language Productivity" by Connelly Barnes](http://www.connellybarnes.com/documents/language_productivity.pdf)
+* "Programming Language Productivity" by Connelly Barnes ([PDF](http://www.connellybarnes.com/documents/language_productivity.pdf))
 * ["Programming languages ranked by expressiveness"](http://redmonk.com/dberkholz/2013/03/25/programming-languages-ranked-by-expressiveness/)
 * ["The Computer Language Benchmarks Game"](http://benchmarksgame.alioth.debian.org/) ([Python3 vs Java on x64 quad-core](http://benchmarksgame.alioth.debian.org/u64q/benchmark.php?test=all&lang=python3&lang2=java&data=u64q))
 * ["Python vs. Java: An update to a subjective speed comparison"](http://www.snaplogic.com/blog/python-vs-java-an-update-to-a-subjective-speed-comparison/)
