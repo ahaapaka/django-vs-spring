@@ -50,9 +50,29 @@ Throughput/scalability                | ? | ? | Data from [Web Framework Benchma
 Code maintenance/updates              | ? | ? | 
 UX, look and feel                     | ? | ? | 
 
+Python vs Java
+--------------
+
+Aspect                | Python | Java | Comments
+-------------| ------ | ------ | --------
+Productivity | + |  | See: [22], [23], [24]. In lines of code (LOC) per hour speed is practically same but because Python programs are shorter and simpler the developers are significantly more productive. |
+Expressiveness | + | | Python programs are more concise and compact (typically 3-4 times shorter) because of dynamic typing and built-in high-level data types. |
+Performance (runtime speed) |  | + | See: [20], [21]. Performance depends on implementation but Python is generally expected to be run slower because of runtime typing. |
+Popularity | + | + | See: [25]
+
+### Type systems (Python vs Java)
+
+Characteristic  | Python type system | Java type system | Comments
+--------------- | ------------------ | ---------------- | --------
+Type expression | implicit | explicit | 
+Type compatibility and equivalence | [structural type system][27], [duck typing][31] | [nominal type system][26] |
+Type checking | [dynamic type-checking][28] | [static type-checking][29] | 
+Strong vs weakly typed | [strongly typed][30] | [strongly typed][30] |
 
 More sources and further reading
 --------------------------------
+
+### Django vs Spring
 
 * [Web frameworks comparison by David Díaz Clavijo](http://blog.websitesframeworks.com/)
 * "Comparing JVM Web Frameworks" by Matt Raible ([video](https://www.youtube.com/watch?v=ygW8fJVlDxQ), [slides](http://www.slideshare.net/mraible/comparing-jvm-web-frameworks-february-2014))
@@ -65,6 +85,22 @@ More sources and further reading
 * [Wikipedia: Web application framework](http://en.wikipedia.org/wiki/Web_application_framework)
 * [Wikipedia: Comparison of web application frameworks](http://en.wikipedia.org/wiki/Comparison_of_web_application_frameworks)
 * [If programming languages were vehicles](http://crashworks.org/if_programming_languages_were_vehicles/)
+
+### Python vs Java
+
+* ["Python & Java: A Side-by-Side Comparison" by Steve Ferg](http://pythonconquerstheuniverse.wordpress.com/2009/10/03/python-java-a-side-by-side-comparison/)
+* ["Popularity vs Productivity vs Performance" by Kyle Hailey](http://datavirtualizer.com/popularity-vs-productivity-vs-performance/)
+* "An empirical comparison of C, C++, Java, Perl, Python, Rexx, and Tcl" by by Lutz Prechelt ([PDF](http://page.mi.fu-berlin.de/prechelt/Biblio//jccpprt_computer2000.pdf))
+* ["Programming Language Productivity" by Connelly Barnes](http://www.connellybarnes.com/documents/language_productivity.pdf)
+* ["Programming languages ranked by expressiveness"](http://redmonk.com/dberkholz/2013/03/25/programming-languages-ranked-by-expressiveness/)
+* ["The Computer Language Benchmarks Game"](http://benchmarksgame.alioth.debian.org/) ([Python3 vs Java on x64 quad-core](http://benchmarksgame.alioth.debian.org/u64q/benchmark.php?test=all&lang=python3&lang2=java&data=u64q))
+* ["Python vs. Java: An update to a subjective speed comparison"](http://www.snaplogic.com/blog/python-vs-java-an-update-to-a-subjective-speed-comparison/)
+
+### Libraries for reporting and graphs
+
+* ["ReportLab Open-source PDF Toolkit"](http://www.reportlab.com/opensource/)
+* ["Outputting PDFs with Django"](https://docs.djangoproject.com/en/dev/howto/outputting-pdf/)
+* ["ReportLab Documentation"](http://www.reportlab.com/software/documentation/)
 
 [1]: https://docs.djangoproject.com/en/dev/topics/db/models/ "Django Models"
 [2]: http://en.wikipedia.org/wiki/Hibernate_%28Java%29 "Hibernate"
@@ -85,3 +121,15 @@ More sources and further reading
 [17]: http://docs.djangoproject.com/en/dev/topics/cache/ "Django Cache Framework"
 [18]: http://spring.io/understanding/view-templates "Spring Template Engines"
 [19]: http://www.techempower.com/benchmarks/ "Web Framework Benchmarks"
+[20]: http://benchmarksgame.alioth.debian.org/u64q/benchmark.php?test=all&lang=python3&lang2=java&data=u64q "The Computer Language Benchmarks Game: Python3 vs Java on x64 quad-core"
+[21]: http://www.snaplogic.com/blog/python-vs-java-an-update-to-a-subjective-speed-comparison/ "Python vs. Java: An update to a subjective speed comparison"
+[22]: http://page.mi.fu-berlin.de/prechelt/Biblio//jccpprt_computer2000.pdf "An empirical comparison of C, C++, Java, Perl, Python, Rexx, and Tcl by by Lutz Prechelt"
+[23]: http://www.connellybarnes.com/documents/language_productivity.pdf "Programming Language Productivity by Connelly Barnes"
+[24]: http://pythonconquerstheuniverse.wordpress.com/2009/10/03/python-java-a-side-by-side-comparison/ "Python & Java: A Side-by-Side Comparison by Steve Ferg"
+[25]: http://datavirtualizer.com/popularity-vs-productivity-vs-performance/ "Popularity vs Productivity vs Performance by Kyle Hailey"
+[26]: http://en.wikipedia.org/wiki/Nominal_type_system "Wikipedia: Nominal type system"
+[27]: http://en.wikipedia.org/wiki/Structural_type_system "Wikipedia: Structural type system"
+[28]: http://en.wikipedia.org/wiki/Type_system#Dynamic_type-checking_and_runtime_type_information "Wikipedia: Dynamic type-checking"
+[29]: http://en.wikipedia.org/wiki/Type_system#Static_type-checking "Wikipedia: Static type-checking"
+[30]: http://pythonconquerstheuniverse.wordpress.com/2009/10/03/static-vs-dynamic-typing-of-programming-languages/ "Static vs. dynamic typing of programming languages by Steve Ferg"
+[31]: http://en.wikipedia.org/wiki/Duck_typing "Wikipedia: Duck typing"
